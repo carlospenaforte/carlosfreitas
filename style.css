@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: black;
+}
+
+.redes-sociais a i {
+    margin-right: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    gap: 20px;                /* Espaço entre os itens */
+    list-style: none;         /* Remove os pontinhos da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.redes-sociais li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais li a i {
+    margin-right: 8px;
+}
+
+#projetos ul {
+  list-style-type: none; /* Remove marcadores da lista principal */
+  padding-left: 0;
+}
+
+#projetos ul > li {
+  margin-bottom: 20px;
+}
+
+#projetos ul > li > a {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: rgb(4, 62, 221);
+  text-decoration: none;
+}
+
+#projetos ul > li > a:hover {
+  text-decoration: underline;
+}
+
+#projetos ul > li > p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+#projetos ul > li > ul {
+  padding-left: 20px; /* Indentação para os subtópicos */
+  list-style-type: disc; /* Bolinhas nos tópicos */
+  color: #444;
+}
+
+#projetos ul > li > ul > li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
